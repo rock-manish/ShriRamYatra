@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ShriRamYatra",
+    "slug": "ShriRamYatra",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
