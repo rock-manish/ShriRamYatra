@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "225596944113",
+    "project_id": "geometric-ivy-350012",
+    "storage_bucket": "geometric-ivy-350012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225596944113:android:60bcb2a0108ba43e438350",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225596944113-su17l8cd3jmocbrcrssqqf6ovngii694.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnot1m6BMOhZLWVJxjKLJMRoXGOwdpgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225596944113-su17l8cd3jmocbrcrssqqf6ovngii694.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225596944113:android:68738cd5d5deab36438350",
+        "android_client_info": {
+          "package_name": "com.awesomeproject.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225596944113-rumn5gbcc6ms14less448pi54hbhhre1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awesomeproject.demo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "225596944113-su17l8cd3jmocbrcrssqqf6ovngii694.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbnot1m6BMOhZLWVJxjKLJMRoXGOwdpgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225596944113-su17l8cd3jmocbrcrssqqf6ovngii694.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

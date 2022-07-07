@@ -8,13 +8,13 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-function Home() {
+function Home({navigation}) {
   return (
     <View style={styles.container}>
       <ImageBackground
         source={require("./r1.jpg")}
         resizeMode="cover"
-        style={{ flex: 1, justifyContent: "center", opacity: 1 }}
+        style={{ flex: 1, justifyContent: "center", opacity: 1 ,width:"100%",height:"100%"}}
       >
         <View />
         <View>
@@ -26,7 +26,8 @@ function Home() {
         <Text style={styles.text}>श्री राम विश्व शांति यात्रा</Text>
         <View>
           <View style={{ paddingTop: 15 }}>
-          <TouchableOpacity style={styles.btn}>
+          <TouchableOpacity onPress={()=>navigation.navigate("Login")}
+          style={styles.btn}>
             <Text style={styles.button}>कृपया यात्रा के लिए यहां क्लिक करें</Text>
           </TouchableOpacity>
           </View>
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 50,
-    color: "red",
+    color: "#FF9933",
     marginTop: 20,
     // borderWidth: 1,
     backgroundColor: "white",
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
   button: {
     textAlign: "center",
     fontSize: 30,
-    color: "red",
+    color: "#FF9933",
     fontWeight: "bold",
   },
 });
